@@ -1,0 +1,8 @@
+.carousel{
+    width: 50%;
+    margin-left: 25%;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: lightgrey;
+}
+
