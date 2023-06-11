@@ -1,4 +1,4 @@
-import { Header } from "../../components/common/header/Header";
+import { Header } from "../../components/layouts/header/Header";
 import { ItemList } from "../../components/itemList/ItemList";
 
 function Home(){

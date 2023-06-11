@@ -9,13 +9,6 @@ import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 
 
 
-
-
-
-
-
-
-
 function BasicExample() {
   return (
     <Navbar bg="" expand="lg">
@@ -26,16 +19,13 @@ function BasicExample() {
           <Nav className="me-auto">
             <Nav.Link><NavLink to="/contactenos">Contactenos</NavLink></Nav.Link>
             <Nav.Link><NavLink to="/otros">Otros productos</NavLink></Nav.Link>
-            <NavDropdown title="Nuestras bebidas" id="basic-nav-dropdown">
+            <NavDropdown title="Licores" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Destilados</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Vinos
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Cervezas</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Vasos y otros
-              </NavDropdown.Item>
+              
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

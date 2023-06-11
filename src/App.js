@@ -1,7 +1,8 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
-import { Contacto, Home, OtrosProductos } from './pages';
+import {Home, ItemListContainer} from './pages';
+import { Header } from './components/layouts/header/Header';
 
 
 
@@ -15,12 +16,12 @@ import { Contacto, Home, OtrosProductos } from './pages';
 function App() {
   return (
     <BrowserRouter>
-
+      <Header/>
       <Routes>
-
-        <Route path = "/" element = {<Home/>} />
-        <Route path = "/otros" element = {<OtrosProductos/>} />
-        <Route path = "/contactenos" element = {<Contacto/>} />
+        
+        <Route path = "/" element = {<ItemListContainer/>} />
+        <Route path = "/category/:id" element = {<ItemListContainer/>} />
+        
         
       </Routes>
 

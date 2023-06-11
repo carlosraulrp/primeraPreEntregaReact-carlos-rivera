@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom"
+/* import { useParams } from "react-router-dom"
 
 const ItemDetail = () =>{
 
@@ -9,4 +9,4 @@ const ItemDetail = () =>{
             <h1>Producto </h1>
         </div>
     )
-}
+} */

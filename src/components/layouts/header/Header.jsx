@@ -1,6 +1,6 @@
 
 import "./styles.css"
-import { BasicExample } from "../navbar";
+import { BasicExample } from "../../common/navbar";
 import { Link } from "react-router-dom";
 
 const Header =() =>{
