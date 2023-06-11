@@ -34,7 +34,7 @@ const ItemListContainer =() =>{
                 </div>
               </Card.Text>
               <div className="item-buttom">
-              <Button variant="primary">Agregar al carrito</Button>
+              <Button variant="primary">+Agregar al carrito</Button>
               <Button variant="secondary" onClick={() => navigate(`/detail/${item.id}`)}>Ver producto</Button>
               </div>
               
