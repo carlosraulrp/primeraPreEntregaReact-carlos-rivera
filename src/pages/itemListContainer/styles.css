@@ -1,0 +1,31 @@
+.contenedor-padre{
+    display: flex;
+    flex-direction: column;
+    
+}
+.caja-nav ul{
+    display: flex;
+    justify-content:space-around;
+    text-decoration: none;
+    background-color: lightyellow;
+    
+    
+    
+}
+
+.caja-nav li{
+    list-style-type: none;
+    
+}
+
+.caja-nav li a{
+    text-decoration: none;
+    color: #000;
+
+}
+
+.caja-list-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}

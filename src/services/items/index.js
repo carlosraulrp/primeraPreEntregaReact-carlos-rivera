@@ -1,10 +1,12 @@
 import {items} from "../../tmp/data"
 
 
-const getItems = async () =>{
+
+
+const getItems = async (categoId) =>{
 
     return new Promise((resolve, reject) => {
-        resolve(items)
+         resolve(items.filter((item)=> item.tipo === categoId)) 
     })
 }
 

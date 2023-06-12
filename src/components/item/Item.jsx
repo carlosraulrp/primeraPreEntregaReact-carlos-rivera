@@ -2,7 +2,7 @@ import {Card, Button} from 'react-bootstrap';
 import "./styles.css"
 
 
-export const Item = ({id, name, tipo, price, img}) =>{
+export const Item = ({id, name, tipo, price, img, onItemClicked, textButton}) =>{
     const addToCart = () =>{
         console.log("esta funcionando")
     }
@@ -22,7 +22,7 @@ export const Item = ({id, name, tipo, price, img}) =>{
           </Card.Text>
           <div className="item-buttom">
           <Button variant="primary">+Agregar al carrito</Button>
-          <Button variant="secondary" /* onClick={() => navigate(`/detail/${id}`)} */>Ver producto</Button>
+          <Button variant="secondary" onClick={onItemClicked}>{textButton}</Button>
           </div>
           
         </Card.Body>
