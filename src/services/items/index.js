@@ -6,9 +6,10 @@ import {items} from "../../tmp/data"
 const getItems = async (categoId) =>{
 
     return new Promise((resolve, reject) => {
-         resolve(items.filter((item)=> item.tipo === categoId)) 
-    })
-}
+         
+            resolve(categoId ?items.filter((item)=> item.tipo === categoId): items)
+         
+})}
 
 const getItem =  async (id) =>{
 

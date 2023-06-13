@@ -27,7 +27,7 @@ export const items = [
         id:"1",
         name:"Jack Daniels",
         tipo:"3",
-        price:30,
+        price:30,        
         img:"https://cdnx.jumpseller.com/botilleria-lilybull/image/16655123/resize/640/640?1650172497"
     },
     {
