@@ -9,7 +9,7 @@ const Header =() =>{
         <>
         <div className="barraHeader">
             <Link to="/"><img src="https://i.pinimg.com/564x/a5/3a/3d/a53a3dad439a4bd64533d4a43e69eeba.jpg" alt="barril" /></Link>
-            <a href="" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faCartShopping}></FontAwesomeIcon>0</a>
+            <Link to="/cart" ><FontAwesomeIcon icon={faCartShopping}></FontAwesomeIcon>0</Link> 
         </div>
         
         </>
