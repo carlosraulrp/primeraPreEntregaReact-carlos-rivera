@@ -11,7 +11,8 @@ const ItemsList = ({items}) =>{
             id={item.id} 
             tipo={item.tipo} 
             img={item.img} 
-            price={item.price} 
+            price={item.price}
+            description={item.description} 
             onItemClicked={item.onItemClicked}
             textButton={item.textButton}
             

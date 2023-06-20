@@ -2,7 +2,7 @@ import {Card, Button} from 'react-bootstrap';
 import "./styles.css"
 
 
-export const Item = ({id, name, tipo, price, img, onItemClicked, textButton}) =>{
+export const Item = ({id, name, tipo, price, description, img, onItemClicked, textButton}) =>{
     const addToCart = () =>{
         console.log("esta funcionando")
     }
