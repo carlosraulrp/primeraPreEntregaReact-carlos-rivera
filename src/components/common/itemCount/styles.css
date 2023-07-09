@@ -1,0 +1,26 @@
+.itemCount{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.itemCount button{
+    background-color:black;
+    border: 0;
+    width: 2rem;
+    height: 2rem;
+    color: white;
+    border-radius: 5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1;
+}
+
+.itemCount button:hover{
+    background-color: azure;
+    color: black;
+}
