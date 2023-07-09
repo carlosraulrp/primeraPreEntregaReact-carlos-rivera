@@ -20,7 +20,7 @@ export const Item = ({id, name, tipo, price, description, img, onItemClicked, te
             </div>
           </Card.Text>
           <div className="item-buttom">
-          <Button variant="primary">+Agregar al carrito</Button>
+          
           <Button variant="secondary" onClick={onItemClicked}>{textButton}</Button>
           </div>
           
