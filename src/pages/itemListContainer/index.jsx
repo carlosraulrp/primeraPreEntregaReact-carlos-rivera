@@ -1,6 +1,6 @@
 import './styles.css'
 import { useEffect, useState } from "react"
-import { useParams, NavLink, useNavigate } from "react-router-dom"
+import { useParams, useNavigate } from "react-router-dom"
 import { getItems } from "../../services"
 import { ItemsList } from "../../components/common/itemsList/ItemList";
 
