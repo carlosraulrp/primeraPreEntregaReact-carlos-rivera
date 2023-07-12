@@ -26,7 +26,7 @@ export const items = [
     {
         id:"1",
         name:"Jack Daniels",
-        tipo:"3",
+        category:"3",
         price:30,
         description:"Jack Daniel's Old No. 7 es un whisky estadounidensees famoso por su suave sabor. Con 40 de alcohol, filtrado a través de carbon de arce sacarino que le confiere un carácter ligeramente ahumado, suave y una serie de aromas y notas característicos, con presencia notable de notas dulces.",        
         img:"https://cdnx.jumpseller.com/botilleria-lilybull/image/16655123/resize/640/640?1650172497"
@@ -34,7 +34,7 @@ export const items = [
     {
         id:"2",
         name:"Delirium",
-        tipo:"5",
+        category:"5",
         price:10,
         description:"Cerveza Artesanal Belga Delirium Tremens 750cc .Color y Apariencia: Pálido rubio, columna de efervescencia fina y regular. Olor: Ligeramente a malta, un buen toque de alcohol. A medida que la cerveza evoluciona sus olores tienden hacia notas dulces y frutales.",
         img:"https://cdnx.jumpseller.com/botilleria-lilybull/image/21260401/resize/640/640?1654842760"
@@ -42,7 +42,7 @@ export const items = [
     {
         id:"3",
         name:"Hendricks",
-        tipo:"3",
+        category:"3",
         price:28,
         description:"HENDRICK’S es un gin inusual creado a partir de once excelentes ingredientes botánicos. Las curiosas, pero maravillosas infusiones de rosa y pepino imbuyen nuestro espíritu con su sabor singularmente equilibrado que da como resultado una ginebra distinta impecablemente suave.",
         img:"https://cdnx.jumpseller.com/botilleria-lilybull/image/25692010/resize/640/640?1657682873"
@@ -50,7 +50,7 @@ export const items = [
     {
         id:"4",
         name:"Toro de piedra",
-        tipo:"4",
+        category:"4",
         price:10,
         description:"Toro de Piedra expresa un recuerdo y un espíritu. Un legado familiar de más de 50 años y la vida de los principales valles vitivinícolas de Chile.Su amor por el oficio, por los ritmos de la naturaleza y el método tradicional, lo convierten en un vino imperfecto, pero vivo. Un vino que descansa en el roble, pero está despierto. Esto refleja la experiencia humana, su riqueza, la búsqueda y la experimentación. Porque Toro de Piedra toma de las manos la historia, el futuro, la fidelidad y el impulso a experimentar, a convertirse en un puente que une generaciones y momentos.",
         img:"https://cdnx.jumpseller.com/botilleria-lilybull/image/21220575/resize/640/640?1639369939"
@@ -58,7 +58,7 @@ export const items = [
     {
         id:"5",
         name:"Espumante Azul",
-        tipo:"4",
+        category:"4",
         price:6,
         description:"Aspecto: Vino extravagante que te encanta con un efecto lava con reflejos de metal mezclándose con burbujas.",
         img:"https://cdnx.jumpseller.com/botilleria-lilybull/image/17512499/resize/640/640?1637294728"
@@ -66,7 +66,7 @@ export const items = [
     {
         id:"6",
         name:"Copa de Cerveza",
-        tipo:"2",
+        category:"2",
         price:9,
         description:"Origen de Belgica, hecho en vidrio Ritzenhoff de 330cc",
         img:"https://cdnx.jumpseller.com/botilleria-lilybull/image/22783925/resize/640/640?1647716376"
@@ -74,7 +74,7 @@ export const items = [
     {
         id:"7",
         name:"Kasteel",
-        tipo:"5",
+        category:"5",
         price:6,
         description:"Estilo Belgian Strong Ale de 11°",
         img:"https://cdnx.jumpseller.com/botilleria-lilybull/image/16532541/resize/640/640?1656367808"
@@ -82,7 +82,7 @@ export const items = [
     {
         id:"8",
         name:"Barril Delirirum Red",
-        tipo:"55",
+        category:"5",
         price:15,
         description:"Marca: Delirium, Presentación: Barril 5 lts, Estilos: RED, Grados: 8,5º, IBU: 10, Origen: Belgica",
         img:"https://cdnx.jumpseller.com/botilleria-lilybull/image/17448086/resize/640/640?1639625449"
@@ -90,14 +90,14 @@ export const items = [
     {
         id:"9",
         name:"Barril Gulden Draak",
-        tipo:"5",
+        category:"5",
         price:46,
         description:"Marca: Delirium, Presentación: Barril 5 lts, Estilos: RED, Grados: 8,5º, IBU: 10, Origen: Belgica",
         img:"https://cdnx.jumpseller.com/botilleria-lilybull/image/24758054/resize/640/640?1654226617"
     }, {
         id:"10",
         name:"Pack Delirum 1",
-        tipo:"5",
+        category:"5",
         price:31,
         description:"Marca: Delirium, Presentación: Barril 5 lts, Estilos: RED, Grados: 8,5º, IBU: 10, Origen: Belgica",
         img:"https://cdnx.jumpseller.com/botilleria-lilybull/image/16547532/resize/640/640?1656513624"
@@ -105,7 +105,7 @@ export const items = [
     {
         id:"11",
         name:"Pack Delirum 2",
-        tipo:"5",
+        category:"5",
         price:24,
         description:"Marca: Delirium, Presentación: Barril 5 lts, Estilos: RED, Grados: 8,5º, IBU: 10, Origen: Belgica",
         img:"https://cdnx.jumpseller.com/botilleria-lilybull/image/20277823/resize/640/640?1653106019"
@@ -113,7 +113,7 @@ export const items = [
     {
         id:"12",
         name:"tequila sombrero negro",
-        tipo:"3",
+        category:"3",
         price:13,
         description:"Marca: Delirium, Presentación: Barril 5 lts, Estilos: RED, Grados: 8,5º, IBU: 10, Origen: Belgica",
         img:"https://cdnx.jumpseller.com/botilleria-lilybull/image/17094864/resize/640/640?1637290769"
@@ -121,7 +121,7 @@ export const items = [
     {
         id:"13",
         name:"Ron cacique 500",
-        tipo:"3",
+        category:"3",
         price:23,
         description:"Marca: Delirium, Presentación: Barril 5 lts, Estilos: RED, Grados: 8,5º, IBU: 10, Origen: Belgica",
         img:"https://cdnx.jumpseller.com/botilleria-lilybull/image/17195701/resize/640/640?1655322580"
@@ -129,7 +129,7 @@ export const items = [
     {
         id:"14",
         name:"Ron Pampero Aniversario",
-        tipo:"3",
+        category:"3",
         price:35,
         description:"Marca: Delirium, Presentación: Barril 5 lts, Estilos: RED, Grados: 8,5º, IBU: 10, Origen: Belgica",
         img:"https://cdnx.jumpseller.com/botilleria-lilybull/image/19922947/resize/640/640?1655442769"
@@ -137,7 +137,7 @@ export const items = [
     {
         id:"15",
         name:"Tequila Don Julio",
-        tipo:"3",
+        category:"3",
         price:65,
         description:"Marca: Delirium, Presentación: Barril 5 lts, Estilos: RED, Grados: 8,5º, IBU: 10, Origen: Belgica",    
         img:"https://cdnx.jumpseller.com/botilleria-lilybull/image/17081416/resize/640/640?1639626151"

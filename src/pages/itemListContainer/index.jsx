@@ -1,7 +1,7 @@
 import './styles.css'
 import { useEffect, useState } from "react"
-import { useParams, NavLink, useNavigate } from "react-router-dom"
-import { getItems } from "../../services"
+import { useParams, useNavigate } from "react-router-dom"
+import { getItems } from "../../services/firebase/items"
 import { ItemsList } from "../../components/common/itemsList/ItemList";
 
 const ItemListContainer =() =>{
@@ -15,6 +15,7 @@ const ItemListContainer =() =>{
 
     useEffect(() =>{
         getItems(categoId).then((data) =>{
+            
             setItems(data);
         })
         

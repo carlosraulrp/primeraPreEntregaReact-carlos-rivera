@@ -7,7 +7,7 @@ const getItems = async (categoId) =>{
 
     return new Promise((resolve, reject) => {
          
-            resolve(categoId ?items.filter((item)=> item.tipo === categoId): items)
+            resolve(categoId ?items.filter((item)=> item.category === categoId): items)
          
 })}
 

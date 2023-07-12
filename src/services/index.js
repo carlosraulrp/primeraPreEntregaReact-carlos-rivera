@@ -1,2 +1,4 @@
-export {getCategories, getCategory} from './categories'
-export {getItems, getItem} from './items'
+export {getCategories} from './firebase/categories'
+export {getItems} from './firebase/items'
+
+

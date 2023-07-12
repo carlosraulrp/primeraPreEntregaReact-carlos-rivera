@@ -1,7 +1,8 @@
 import { useParams } from "react-router-dom"
 import { ItemDetail } from "../../components/common/itemDetail"
 import { useEffect, useState } from "react"
-import { getItem } from "../../services"
+import { getItems } from "../../services/firebase/items"
+
 
 const ItemsDetailContainer = () =>{
 
@@ -10,7 +11,7 @@ const ItemsDetailContainer = () =>{
 
     
     useEffect(() =>{
-        getItem(id).then((data) =>{
+        getItems(id).then((data) =>{
             setItem(data);
         })
         
@@ -26,7 +27,7 @@ const ItemsDetailContainer = () =>{
                 name={item.name}
                 description ={item.description} 
                 img={item.img}
-                tipo={item.tipo} 
+                category={item.category} 
                 price = {item.price} 
                 
                 

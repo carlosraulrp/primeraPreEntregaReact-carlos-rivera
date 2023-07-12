@@ -3,7 +3,7 @@ import "./styles.css"
 
 
 
-export const Item = ({id, name, tipo, price, description, img, onItemClicked, textButton}) =>{
+export const Item = ({id, name, category, price, description, img, onItemClicked, textButton}) =>{
     
 
     return(
@@ -20,8 +20,7 @@ export const Item = ({id, name, tipo, price, description, img, onItemClicked, te
             </div>
           </Card.Text>
           <div className="item-buttom">
-          <Button variant="primary">+Agregar al carrito</Button>
-          <Button variant="secondary" onClick={onItemClicked}>{textButton}</Button>
+            <Button variant="secondary" onClick={onItemClicked}>{textButton}</Button>
           </div>
           
         </Card.Body>
