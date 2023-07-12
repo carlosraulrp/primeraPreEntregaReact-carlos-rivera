@@ -10,6 +10,7 @@ const getItems = async(categoId) =>{
     let q
     if(categoId){
         q = query(itemsRef, where("category", "==", categoId))
+        
     }
     try{
         const snapshot = await getDocs(q || itemsRef)
