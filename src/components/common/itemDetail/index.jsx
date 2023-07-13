@@ -1,19 +1,19 @@
-import { Image } from "react-bootstrap"
+
 import "./styles.css"
 import ItemCount from "../itemCount"
 import { useContext, useState } from "react"
 import { CartContext } from "../../../context/cartContext"
 
-const ItemDetail =({id, name, tipo, price, img, description }) =>{
+const ItemDetail =({id, name, category, price, img, description }) =>{
 
-    const {carrito, agregarCarrito} = useContext(CartContext)
-    console.log(carrito)
+    const { agregarCarrito} = useContext(CartContext)
+    
 
     const [cantidad, setCantidad] = useState(1)
     const handleRestar =() =>{
         cantidad > 1 && setCantidad(cantidad - 1)
     }
-    const item = {id, name, tipo, price, img, description}
+    const item = {id, name, category, price, img, description}
     const handleSumar =() =>{
         setCantidad(cantidad + 1)
     }

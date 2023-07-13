@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
-import { getCategories } from "../../services"
+import { getDocs, collection, query, where} from "firebase/firestore"
+import { db } from '../../services/firebase/configFirebase';
 import { useNavigate, useParams, NavLink } from "react-router-dom"
 
 
@@ -9,9 +10,20 @@ const Navbar = () => {
     const [categories, setCategories] = useState([])
 
     useEffect(()=>{
-        getCategories().then((data) =>{
-            setCategories(data);
-        })
+        const categoriesRef = collection(db, "categories")
+        const q = query(categoriesRef)
+        
+        getDocs(q).then((resp) => {
+            setCategories(
+              resp.docs.map((doc) => {
+                return { ...doc.data(), id: doc.id }
+                
+                
+              })
+            )
+            
+          })
+          
 
     },[])
   return (

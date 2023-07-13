@@ -3,7 +3,7 @@ import "./styles.css"
 
 
 
-export const Item = ({id, name, tipo, price, description, img, onItemClicked, textButton}) =>{
+export const Item = ({id, name, category, price, description, img, onItemClicked, textButton}) =>{
     
 
     return(
@@ -13,8 +13,7 @@ export const Item = ({id, name, tipo, price, description, img, onItemClicked, te
         <Card.Body>
           <Card.Title>{name}</Card.Title>
           <Card.Text>
-            <p>Some quick example text to build on the card title and make up
-            the bulk of the card's content.</p>
+            <p>Los mejores en {category}</p>
             <div className="item-price">
             ${price}
             </div>

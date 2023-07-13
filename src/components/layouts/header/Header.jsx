@@ -1,5 +1,6 @@
 
 import "./styles.css"
+import {icons} from 'react-bootstrap';
 
 import { Link } from "react-router-dom";
 
