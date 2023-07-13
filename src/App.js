@@ -5,12 +5,17 @@ import {ItemListContainer, ItemsDetailContainer} from './pages';
 import { Header } from './components/layouts/header/Header';
 import {CartProvider } from './context/cartContext';
 import Carrito from './components/cart';
+import Footer from './components/layouts/header/footer/Footer';
 
 
 
 
 function App() {
 
+  const datosFooter = {
+    copyright: "Todos los Derechos Reservados 2023",
+    autor: "Carlos Rivera"
+}
 
   return (
 
@@ -27,6 +32,8 @@ function App() {
             
             
           </Routes>
+
+          <Footer  data={datosFooter}/>
 
                 
         </BrowserRouter>

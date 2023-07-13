@@ -16,7 +16,6 @@ const Navbar = () => {
         getDocs(q).then((resp) => {
             setCategories(
               resp.docs.map((doc) => {
-                
                 return { ...doc.data(), id: doc.id }
                 
                 

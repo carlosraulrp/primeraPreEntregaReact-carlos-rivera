@@ -1,0 +1,23 @@
+footer {
+    background-color: #FEC601;
+    padding: 2rem;
+}
+
+footer p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+footer p a {
+    color: #000;
+    
+}
+
+footer p a:hover {
+    color: #fff;
+    background-color: #3b3b3b;
+    padding: .5rem 1rem;
+    transition: ease .3s;
+    border-radius: 50px;
+}
+
