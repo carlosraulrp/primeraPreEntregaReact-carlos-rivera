@@ -13,8 +13,7 @@ export const Item = ({id, name, category, price, description, img, onItemClicked
         <Card.Body>
           <Card.Title>{name}</Card.Title>
           <Card.Text>
-            <p>Some quick example text to build on the card title and make up
-            the bulk of the card's content.</p>
+            <p>Los mejores en {category}</p>
             <div className="item-price">
             ${price}
             </div>

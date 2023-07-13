@@ -1,23 +1,33 @@
 import { useParams } from "react-router-dom"
 import { ItemDetail } from "../../components/common/itemDetail"
 import { useEffect, useState } from "react"
-import { getItems} from "../../services/firebase/items"
+import{ doc, getDoc} from "firebase/firestore"
+import { db } from "../../services/firebase/configFirebase"
+
+
 
 
 const ItemsDetailContainer = () =>{
 
-    const {id, categoId} = useParams()
+    const {id} = useParams()
     const [item, setItem] = useState()
     
 
     
     useEffect(() =>{
-        getItems().then((data) =>{
-            setItem(data);
+      const docRef = doc(db, "items", id)
+      getDoc(docRef)
+        .then((resp) =>{
+            setItem(
+                {
+                    ...resp.data(), id: resp.id
+                }
+            )
+
         })
 
                 
-    },[])
+    },[id])
 
     if (item){
         return(
